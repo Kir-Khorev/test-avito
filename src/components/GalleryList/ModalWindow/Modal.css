@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Roboto:wght@300;400;500&display=swap');
+
 .modal-overlay {
   position: absolute;
   z-index: 9;
@@ -15,5 +17,57 @@
   background-color: #ffffff;
   border: 1px solid #bebebe;
   border-radius: 2px;
-  padding: 12px 16px;
+}
+
+.modalWindow {
+  padding: 30px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 14px;
+  grid-row-gap: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.modalWindowImg {
+  max-width: 331px;
+  min-height: 205px;
+  margin-bottom: 29px;
+}
+
+.modalWindowImg > img{
+  width: 100%;
+  height: auto;
+}
+
+.apiComments {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.commentsDate{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #999999;
+  margin-bottom: 8px;
+}
+
+.commentsText{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  align-items: center;
+  text-align: left;
 }

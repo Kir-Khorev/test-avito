@@ -3,9 +3,8 @@ import Reducer from "./Reducer";
 import ModalReducer from './ModalReducer';
 
 const reducers = combineReducers({
-    // Img: Reducer,
     State: Reducer,
-    ModalState: ModalReducer
+    // ModalState: ModalReducer
 })
 
 export default reducers;

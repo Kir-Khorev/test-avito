@@ -28,7 +28,7 @@ export default function GalleryItem(props) {
     }
 
     function afterOpenModal() {
-        console.log('after opem');
+        console.log('after open');
     }
 
     function closeModal() {
@@ -39,13 +39,11 @@ export default function GalleryItem(props) {
         <a key={props.item.id} onClick={() => openModal()}>
             <img src={props.item.url} alt={props.item.id} />
         </a>
-        <Modal
-            isOpen={modalIsOpen}
+        <Modal isOpen={modalIsOpen}
             onAfterOpen={afterOpenModal}
-            onRequestClose={closeModal}
-            style={customStyles}
-        >
-            <CloseButton onClick={closeModal} />
+            onRequestClose={() => setIsOpen(false)}
+            style={customStyles}>
+            <CloseButton onClick={() => setIsOpen(false)} />
             <ModalInfo id={props.item.id} />
         </Modal>
     </div>

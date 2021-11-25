@@ -7,7 +7,6 @@ export default function GalleryList() {
     const images = useSelector((state) => state.State.images);
     console.log('img', images);
 
-
     return (
         <div className='galleryList'>
             {
