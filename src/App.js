@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './App.css';
 import { useDispatch } from 'react-redux';
 import { useEffect } from 'react';
@@ -15,7 +14,6 @@ function App() {
   useEffect(() => {
     dispatch(getAllImg());
   }, []);
-
 
   return (
     <div className="App">

@@ -21,7 +21,7 @@
 
 .modalWindow {
   padding: 30px;
-  border: 1px solid black;
+  border: 1px solid rgb(185, 185, 185);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;

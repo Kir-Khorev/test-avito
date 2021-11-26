@@ -3,8 +3,8 @@ import './Footer.css';
 
 export default function Footer () {
     return (
-        <div className='footer'>
+        <footer className='footer'>
             <span className='footer-copyright'>© 2018-2019</span>
-        </div>
+        </footer>
     )
 }
