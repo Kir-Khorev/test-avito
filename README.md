@@ -1,7 +1,7 @@
 # Avito Cards
 SPA made with React (Hooks), Redux.
 
-> - [Live Demo](https://test-avito.vercel.app/) :photo:
+> - [Live Demo](https://test-avito.vercel.app/) :camera_flash:
 
 ![screenshot](src/assets/img/screenshot.png "screenshot")
 
