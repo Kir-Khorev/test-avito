@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { CloseButton } from 'react-bootstrap';
 import Modal from 'react-modal';
 import ModalInfo from "../ModalWindow/Modal";
@@ -28,7 +28,6 @@ export default function GalleryItem(props) {
     }
 
     function afterOpenModal() {
-        console.log('after open');
     }
 
     function closeModal() {
